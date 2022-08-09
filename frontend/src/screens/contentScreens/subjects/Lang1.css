@@ -1,0 +1,34 @@
+.switchContainer {
+  display: flex;
+}
+.switchContainer > h3 {
+  margin-right: 10px;
+  cursor: pointer;
+  line-height: 25px;
+  padding: 5px;
+  transition-duration: 300ms;
+  border-bottom: 2px solid rgb(196, 196, 196);
+}
+
+.switchContainer > h3:hover {
+  background-color: lightGrey;
+  border-radius: 10px;
+  transition-duration: 300ms;
+}
+
+/*  */
+.container {
+  display: flex;
+}
+.poznamky {
+  background-color: #eee;
+  height: 100vh;
+  overflow-x: auto;
+  padding: 10px;
+}
+.ulohy {
+  background-color: #eee;
+  height: 100vh;
+  overflow-x: auto;
+  padding: 10px;
+}
